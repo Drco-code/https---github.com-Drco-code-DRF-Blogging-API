@@ -1,0 +1,35 @@
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Ignore Django-specific files
+*.log
+.env
+.env.local
+instance/
+media/
+staticfiles/
+
+
+# Ignore virtual environment
+venv/
+env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Ignore VS Code and PyCharm settings
+.vscode/
+
+
+
+
+# Ignore cache and logs
+__pycache__/
+logs/
+*.log
+
+,gitignore
