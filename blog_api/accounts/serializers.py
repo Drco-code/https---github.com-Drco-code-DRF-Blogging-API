@@ -2,7 +2,7 @@ from rest_framework import serializers
 from accounts.models import Profile
 
 
-class BlogPostSerializer(serializers.Serializer):
+class ProfileSerializer(serializers.Serializer):
     class Meta:
         model = Profile
         fields = ("id", "first_name", "last_name", "email", "bio", "avatar")
